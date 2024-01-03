@@ -35,7 +35,7 @@ const handler = NextAuth({
             image: profile.picture,
           });
         }
-        console.log("enas madina ");
+
         return true;
       } catch (error) {
         console.log("Error checking if user exists: ", error.message);
